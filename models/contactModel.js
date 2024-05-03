@@ -11,7 +11,7 @@ const connectSchema = mongoose.Schema({
     },
     phone:{
         type: String,
-        required: [true, "Phone number."],
+        required: [true, "Please add phone number."],
     }
 },
 {
