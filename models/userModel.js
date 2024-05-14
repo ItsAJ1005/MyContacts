@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const connectSchema = mongoose.Schema({
+const userSchema = mongoose.Schema({
     username: {
         type: String,
         required: [true, "Please add user name."],
